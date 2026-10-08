@@ -1,0 +1,13 @@
+{
+    "name":  "claude-mod-reflect-bridge",
+    "owner":  {
+                  "name":  "Hasan"
+              },
+    "plugins":  [
+                    {
+                        "description":  "Reflect, adapted: spots reusable corrections in your short prompts (one small Haiku call, only on prompts that read like a correction) and saves them on one press to auto-memory, the shared Claude CLAUDE.md, or the AGENTS.md all your agents read. Based on claude-reflect\u0027s mod by Bayram Annakov (MIT).",
+                        "name":  "reflect-bridge",
+                        "source":  "./"
+                    }
+                ]
+}

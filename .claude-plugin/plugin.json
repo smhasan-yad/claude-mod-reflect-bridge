@@ -1,0 +1,15 @@
+{
+  "name": "reflect-bridge",
+  "version": "0.3.0",
+  "description": "Reflect, adapted: spots reusable corrections in your short prompts (one small Haiku call, only on prompts that read like a correction) and saves them on one press to auto-memory, the shared Claude CLAUDE.md, or the AGENTS.md all your agents read. Based on claude-reflect's mod by Bayram Annakov (MIT).",
+  "types": "./types/index.d.ts",
+  "license": "MIT",
+  "userConfig": {
+    "model": {
+      "type": "string",
+      "title": "Check model",
+      "description": "The model that reads a correction-like prompt and decides whether it is a reusable rule",
+      "default": "haiku"
+    }
+  }
+}
